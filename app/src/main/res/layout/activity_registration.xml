@@ -23,6 +23,26 @@
         app:layout_constraintVertical_bias="0.053" />
 
     <EditText
+        android:id="@+id/edt_confirm_Password"
+        android:layout_width="362dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="74dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="74dp"
+        android:drawableStart="@drawable/baseline_lock_24"
+        android:ems="10"
+        android:hint="comfirm Password"
+        android:inputType="textPassword"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.444"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.342"
+        tools:ignore="UnknownIdInLayout" />
+
+    <EditText
         android:id="@+id/edt_register_Password"
         android:layout_width="362dp"
         android:layout_height="60dp"
@@ -36,14 +56,14 @@
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.444"
+        app:layout_constraintHorizontal_bias="0.505"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.342"
+        app:layout_constraintVertical_bias="0.172"
         tools:ignore="UnknownIdInLayout" />
 
     <Button
-        android:id="@+id/btn_login"
+        android:id="@+id/btn_register"
         android:layout_width="282dp"
         android:layout_height="51dp"
         android:backgroundTint="@color/black"
@@ -54,22 +74,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.541" />
-
-    <EditText
-        android:id="@+id/edit_Phone"
-        android:layout_width="362dp"
-        android:layout_height="57dp"
-        android:ems="10"
-        android:hint="Phone"
-
-        android:inputType="phone"
-        android:drawableStart="@drawable/baseline_phone_24"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.666"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.211" />
 
     <TextView
         android:id="@+id/textView2"
